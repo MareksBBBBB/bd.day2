@@ -1,0 +1,6 @@
+teksts = load 'data/words.txt' as (line:chararray)
+unique_count = distinct teksts
+wordcount = count(unique_count)
+dunp wordcount;
+
+
